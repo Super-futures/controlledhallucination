@@ -10,9 +10,7 @@ The piece runs ~5 minutes across four acts. It's not a neuroscience explainer. I
 
 ## Viewing
 
-Open `Controlled Hallucination - standalone.html` in any modern browser. It's a single self-contained file — no server, no build step, no internet connection required after first load. Works offline.
-
-If you'd prefer to run from source, open `Controlled Hallucination.html` instead; the standalone is just that file with its dependencies inlined.
+Open in any modern browser. It's a single self-contained file — no server, no build step, no internet connection required after first load. Works offline.
 
 **Headphones recommended.** The soundtrack is a slow ambient drone synthesized in Web Audio. It needs the initial click on **begin** to start the audio context.
 
@@ -74,17 +72,6 @@ tweaks-panel.jsx — generic floating tweaks panel
 ```
 
 Each shot is a small React component that renders to a full-bleed canvas (procedural motion) plus an optional SVG overlay (diegetic labels, confidence rings) plus essayistic subtitle captions. Shots are crossfaded with a 1.6-second overlap.
-
----
-
-## Visual & sonic intent
-
-The brief was explicit: **no glitch horror, no TED-Talk energy, no Apple-commercial polish, no clinical neuroscience aesthetics.** Schizophrenia is not framed as exotic pathology. It's introduced — late — as instability within processes already fundamental to all perception.
-
-- **Visuals:** procedural perceptual fields, probabilistic overlays, salience heatmaps, recurring abstract motifs (smudges, triangles, rings) that drift across acts. No depicted faces, hospitals, or psychiatric imagery.
-- **Motion:** confidence oscillation, lingering afterimages, asynchronous drift, recursive overbinding — designed to model cognition itself, not glitch.
-- **Sound:** slow ambient guitar-like pads, soft harmonic saturation, granular susurration. The film grows denser and less stable during salience amplification but remains emotionally beautiful, not frightening.
-- **Type:** EB Garamond italic for narration; JetBrains Mono uppercase for diegetic system labels.
 
 ---
 
